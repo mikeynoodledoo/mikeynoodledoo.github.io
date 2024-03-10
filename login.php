@@ -52,12 +52,12 @@
                     <form id="loginForm" action="login.php" method="post" class="userInformation">
                         <div class="titleTextbox">
                             <label for="email">Email:</label>
-                            <input type="email" name="email" class= "form-control" required>
+                            <input type="email" name="email" class= "inputBox" required>
                         </div>
                         
                         <div class="titleTextbox">
                             <label for="password">Password:</label>
-                            <input type="password" name="password" class= "form-control" required>
+                            <input type="password" name="password" class= "inputBox" required>
                         </div>
                         
                         <div class="titleTextbox">
@@ -65,6 +65,7 @@
                     <input type="submit" value="Login" name="login" id="registerBtn">
                         </div>
                     </form>
+                    <div><p>Not Registered yet? <a href="index.php"> Register</a></p></div>
                 </div>
                 </div>
 	
