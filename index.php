@@ -86,42 +86,43 @@
 <form id="registrationForm" action="index.php" method="post" class="userInformation" >
 						<div class="titleTextbox">
 							<label  for="fName">First Name:</label>
-							<input class="fn" type="text" id="fName" name="fName">
+							<input class="inputBox" type="text" id="fName" name="fName">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="lName">Last Name:</label>
-							<input class="fn" type="text" id="lName" name="lName">
+							<input class="inputBox" type="text" id="lName" name="lName">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="num">Phone Number:</label>
-							<input class="fn" type="text" id="num" name="num">
+							<input class="inputBox" type="text" id="num" name="num">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="country">Country:</label>
-							<input class="fn" type="text" id="country" name="country">
+							<input class="inputBox" type="text" id="country" name="country">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="email">Email:</label>
-							<input class="fn" type="text" id="email" name="email">
+							<input class="inputBox" type="text" id="email" name="email">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="password">Password:</label>
-							<input class="fn" type="text" id="password" name="password">
+							<input class="inputBox" type="password" id="password" name="password">
 						</div>
 						
 						<div class="titleTextbox">
 							<label  for="confirmPass">Confirm Password:</label>
-							<input class="fn" type="text" id="confirmPass" name="confirmPass">
+							<input class="inputBox" type="password" id="confirmPass" name="confirmPass">
 						</div>
 						<div class="titleTextbox">
 							<input type="submit" id="registerBtn" name="Register" value="Register" placeholder="submit">
 						</div>
 						</form>
+						<div><p>Already registered? <a href="login.php">Login</a></div>
 					</div>
 					
 				</div>
