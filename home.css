@@ -122,7 +122,7 @@ flex : 1;
 .titleContainer > *{
 display: block;
 margin: 10px;
-margin-left:200px;
+margin-left: 25%;
 text-align: center;
 
 }

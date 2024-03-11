@@ -1,0 +1,219 @@
+body {
+    background: linear-gradient(-25deg, #9F5E9F, #9F5E7F,#7F5E9F);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+    ul {
+      list-style-type: none;
+      
+      margin: 0;
+      padding: 0;
+      width: 10%;
+      background-color: #B5A2C8;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      font-family: var(--font-just-another-hand);
+      font-size: 35px;
+    }
+    
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    
+    li a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    .inputBox {height: 35px;flex: 1;position: relative;margin: 12px;background-color: var(--color-white);box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);border: 1px solid var(--color-gray);min-width: 227px;max-width: 100%;font-size: 25px;}
+    
+    .detailsContainer {
+    margin-left:50px;
+    }
+    
+    .titlePage {
+    display: inline;
+    }
+    
+    .details {
+    display: inline;
+    }
+    
+    .topContainer {
+        position: relative;
+        min-height: 100vh;
+    
+    }
+    .mainContainer {
+    
+    display: flex;	
+    width: 100%;
+    padding-bottom: 2.5rem;
+    }
+    
+    .mainContainer > div {
+    flex : 1;
+    
+    
+    }
+    .titleContainer{
+        display: flex;
+    }
+    .titleContainer > *{
+        text-align: left;
+        margin-left: 25%;
+        
+    
+    }
+    .titlePic {
+           width: 589px;
+        float: left;
+        margin-bottom: -54px;
+        margin-top: 78px;
+        margin-right: 10px;
+    }
+    .mePic {
+    width: 350px;	
+    float: left;
+    margin-bottom: -9px;
+    margin-right: 10px;
+    }
+    
+     p {
+         line-height: 2;
+     }
+     .notReg{
+             font-size: 20px;
+        text-align: center;
+     }
+    .prdyb {
+        font-family: var(--font-just-another-hand);
+        font-size: 55px;
+        margin-bottom: -2%;
+        /* margin-top: 50%; */
+    }
+    
+    .notReg {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .regLabel{
+    font-family: var(--font-kodchasan);
+    
+    text-align: left;
+    }
+    
+    .titleTextbox{font-family: var(--font-josefin-sans);font-size: 30px;}
+    .userInformation {
+        width: 639px;
+        text-align: right;
+        margin-top: 129px;
+        font-size: 35px;
+    }
+    .userInformation > form {
+    display: block;
+    margin-top: 55%;
+    margin-right: 30%;
+    
+    }
+    
+    
+    .footerDiv {
+    background-color: rgba(128,104,128,1);
+    padding: 1px 35px 11px;
+    
+    font-size: 17px;
+    font-family: var(--font-just-another-hand);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    
+    }
+    #registerBtn {
+      appearance: button;
+      backface-visibility: hidden;
+      background-color: var(--color-slategray);
+      border-radius: 6px;
+      border-width: 0;
+      width: 25px;
+      box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+      font-size: 30px;
+      height: 44px;
+      line-height: 1.15;
+      margin: 12px 0 0;
+      outline: none;
+      overflow: hidden;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transform: translateZ(0);
+      transition: all .2s,box-shadow .08s ease-in;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: 200px;
+      margin-right: 50px;
+    }
+    
+    #registerBtn:disabled {
+      cursor: default;
+    }
+    
+    #registerBtn:focus {
+      box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    }
+
+
+.links {
+    text-align: center;
+    margin-top: -10px;
+}
+
+img.pngs {
+    width: 186px;
+    margin-right: 40px;
+}
+
+p.textlink {
+    font-size: 50px;
+    text-align: center;
+}
+
+.titleHead {
+    text-align: center;
+    margin-top: 50px;
+}
