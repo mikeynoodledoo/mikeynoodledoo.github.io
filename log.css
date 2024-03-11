@@ -50,7 +50,18 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-.inputBox {height: 35px;flex: 1;position: relative;margin: 12px;background-color: var(--color-white);box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);border: 1px solid var(--color-gray);min-width: 227px;max-width: 100%;font-size: 25px;}
+.inputBox {
+height: 48px;
+flex: 1;
+position: relative;
+margin: 25px;
+background-color: var(--color-white);
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+border: 1px solid var(--color-gray);
+min-width: 227px;
+max-width: 100%;
+font-size: 25px;
+}
 
 .detailsContainer {
 margin-left:50px;
@@ -106,15 +117,12 @@ margin-right: 10px;
  p {
      line-height: 2;
  }
- .notReg{
-         font-size: 20px;
-    text-align: center;
- }
 .prdyb {
     font-family: var(--font-just-another-hand);
     font-size: 55px;
     margin-bottom: -2%;
-    /* margin-top: 50%; */
+    
+    margin-top: 50%;
 }
 
 .notReg {
@@ -128,12 +136,16 @@ font-family: var(--font-kodchasan);
 text-align: left;
 }
 
-.titleTextbox{font-family: var(--font-josefin-sans);font-size: 30px;}
+.titleTextbox{
+font-family: var(--font-josefin-sans);
+
+}
 .userInformation {
-    width: 639px;
-    text-align: right;
-    margin-top: 129px;
-    font-size: 35px;
+    width:550px;
+text-align: right;
+margin-top: 150px;
+font-size: 35px;
+
 }
 .userInformation > form {
 display: block;

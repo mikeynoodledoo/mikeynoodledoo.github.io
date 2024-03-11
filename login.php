@@ -12,7 +12,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="initial-scale=1, width=device-width"/>
 		<link rel="stylesheet" href="./global.css"/>
-		<link rel="stylesheet" href="./log-reg.css"/>
+		<link rel="stylesheet" href="./log.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Just Another Hand:wght@400&display=swap"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@400&display=swap"/>
@@ -63,15 +63,17 @@
                         <div class="titleTextbox">
                             <label for="login"></label>
                     <input type="submit" value="Login" name="login" id="registerBtn">
+                    <p class="notReg">Not Registered yet? <a href="index.php">Register</a></p>
                         </div>
                     </form>
-                    <div><p>Not Registered yet? <a href="index.php"> Register</a></p></div>
+                    <div></div>
                 </div>
                 </div>
 	
 				<div class="titleContainer">
-					<h1 class="prdyb">PRDYB</h1>
+					
 					<div class="regLabel">
+					    <h1 class="prdyb">PRDYB</h1>
 						<h3 class="regLabel">Login</h3>
 					</div>
 					<img class="titlePic" loading="lazy" alt="" src="./images/silhouette.png"/>

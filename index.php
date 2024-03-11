@@ -120,15 +120,17 @@
 						</div>
 						<div class="titleTextbox">
 							<input type="submit" id="registerBtn" name="Register" value="Register" placeholder="submit">
+							<p class="notReg">Already registered? <a href="login.php">Login</a>
 						</div>
 						</form>
-						<div><p>Already registered? <a href="login.php">Login</a></div>
+						<div></div>
 					</div>
 					
 				</div>
 				<div class="titleContainer">
-					<h1 class="prdyb">PRDYB</h1>
+					
 					<div class="regLabel">
+					    <h1 class="prdyb">PRDYB</h1>
 						<h3 class="regLabel">Registration</h3>
 					</div>
 					<img class="titlePic" loading="lazy" alt="" src="./images/silhouette.png"/>
